@@ -33,7 +33,7 @@ run.multireg(locus, phenos=c("bmi","whr","T2D"))[[1]][[1]]
 ###########################################################################
 ################  C A D  ~  H D L  |  L D L  ##############################
 ###########################################################################
-# to what extent can the rg between CAD-T2D be accounted for by BMI? (and vice versa)
+# to what extent can the rg between CAD-HDL be accounted for by LDL? (and vice versa)
 
 # process input & relevant locus
 input = process.input(input.info, sample.overlap, ref.prefix, phenos=c("HDL","LDL","cad"))
@@ -43,8 +43,8 @@ locus = process.locus(subset(loci, LOC==2351), input)
 run.bivar(locus, target="cad")
 
 # partial cor
-run.pcor(locus, phenos=c("cad","LDL","HDL")) # CAD ~ LDL | HDL
 run.pcor(locus, phenos=c("cad","HDL","LDL")) # CAD ~ HDL | LDL
+run.pcor(locus, phenos=c("cad","LDL","HDL")) # CAD ~ LDL | HDL
 
 # multiple regression with CAD as outcome
 run.multireg(locus, phenos=c("LDL","HDL","cad"))
