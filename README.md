@@ -1,4 +1,4 @@
-# LAVA code (Werme et al, 2021)
+# LAVA code
 
 This repository contains the scripts used to generate the main results for the first LAVA paper, together with the version of the LAVA package which was used to conduct these analyses.
 
