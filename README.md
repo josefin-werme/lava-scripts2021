@@ -1,4 +1,4 @@
-# LAVA code
+# LAVA code (Werme, van der Sluis, Posthuma, de Leeuw 20201)
 
 This repository contains the scripts used to generate the main results for the first LAVA paper, together with the version of the LAVA package which was used to conduct these analyses.
 
