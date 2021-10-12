@@ -1,6 +1,7 @@
-# LAVA code
+# LAVA code 
+## Werme, van der Sluis, Posthuma, de Leeuw (2021)
 
-This repository contains the scripts used to generate the main results for the first LAVA paper (Werme, van der Sluis, Posthuma, de Leeuw 2021), together with the specific package version of LAVA which was used to conduct these analyses.
+This repository contains the scripts used to generate the main results for the first LAVA paper, together with the specific package version of LAVA which was used to conduct the analyses
 
 ## Scripts
 - **bivariate.R**
