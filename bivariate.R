@@ -1,4 +1,4 @@
-# This script is called from the command line as: Rscript lava_rg.R $REFDAT $LOCFILE $INFOFILE $OVERLAPFILE "$PHEN1;$PHEN2" $OUTNAME
+# This script is called from the command line as: Rscript bivariate.R $REFDAT $LOCFILE $INFOFILE $OVERLAPFILE "$PHEN1;$PHEN2" $OUTNAME
 # with bash variables representing those described below: 
 arg = commandArgs(T)
 refdat = arg[1]		# reference data prefix
