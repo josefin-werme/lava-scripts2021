@@ -28,4 +28,5 @@ This is the script used to generate the results for the conditional analyses. Th
 
 ## Package version
 #### **lava.v0.0.6**
-This directory containes the entire R package that was used to perform the analyses (including README and example data). The locus file used for the analyses can be found in lava.v0.0.6/support_data. Note that this directory only contains the package version used for the paper - to download the most recent version, go to https://github.com/josefin-werme/LAVA
+This directory containes the entire R package that was used to perform the analyses (including README and example data). Note that this directory only contains the package version used for the paper - to download the most recent version, go to https://github.com/josefin-werme/LAVA
+- The locus file used for the analyses can be found in lava.v0.0.6/support_data.
