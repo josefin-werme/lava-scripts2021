@@ -24,7 +24,7 @@ $OUTNAME # the prefix for the output files
 
 
 #### **conditional.R**
-This is the script used to generate the results for the conditional analyses. The script was run on a desktop locally exactly as indicated in the script
+This is the script used to generate the results for the conditional analyses. The script was run on a desktop locally exactly as indicated in the script (exact paths and file names may need to be adapted)
 
 ## Package version
 #### **lava.v0.0.6**
